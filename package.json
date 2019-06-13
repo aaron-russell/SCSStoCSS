@@ -1,0 +1,22 @@
+{
+  "name": "scsstocss",
+  "version": "1.0.0",
+  "description": "Simple API to convert SCSS to CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "j"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "css",
+    "converter",
+    "api"
+  ],
+  "author": "Aaron Russell",
+  "license": "MIT"
+}
