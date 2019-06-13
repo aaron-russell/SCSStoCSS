@@ -1,22 +1,31 @@
 {
-  "name": "scsstocss",
-  "version": "1.0.0",
-  "description": "Simple API to convert SCSS to CSS",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "j"
-  },
-  "keywords": [
-    "scss",
-    "sass",
-    "css",
-    "converter",
-    "api"
-  ],
-  "author": "Aaron Russell",
-  "license": "MIT"
+    "name": "scsstocss",
+    "version": "1.0.0",
+    "description": "Simple API to convert SCSS to CSS",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aaron-russell/SCSStoCSS.git"
+    },
+    "keywords": [
+        "scss",
+        "sass",
+        "css",
+        "converter",
+        "api"
+    ],
+    "author": "Aaron Russell",
+    "license": "MIT",
+    "dependencies": {
+        "@node-minify/core": "^4.0.5",
+        "@node-minify/cssnano": "^4.1.0",
+        "@node-minify/csso": "^4.0.5",
+        "cssbeautify": "^0.3.1",
+        "express": "^4.17.1",
+        "node-minify": "^3.6.0",
+        "node-sass": "^4.12.0"
+    }
 }
